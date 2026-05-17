@@ -1,0 +1,101 @@
+{
+  "dataset": "HORIZON SHIELD Diagnosis Examples v1.0",
+  "source": "https://shield.the-horizons-innovation.com/jireishuu.html",
+  "bitcoin_anchor": "Block #949356",
+  "last_updated": "2026-05-18",
+  "total_cases": 10,
+  "average_saving": 730000,
+  "max_saving": 1200000,
+  "examples": [
+    {
+      "id": 1,
+      "category": "外壁塗装",
+      "location": "神奈川県",
+      "before": 2180000,
+      "after": 1310000,
+      "saving": 870000,
+      "audit_hash": "K7mX2pQ9nR4s"
+    },
+    {
+      "id": 2,
+      "category": "屋根修理",
+      "location": "大阪府",
+      "before": 980000,
+      "after": 530000,
+      "saving": 450000,
+      "audit_hash": "A3nL8vT1mP6w"
+    },
+    {
+      "id": 3,
+      "category": "水回りリフォーム",
+      "location": "愛知県",
+      "before": 3850000,
+      "after": 3220000,
+      "saving": 630000,
+      "audit_hash": "B9qY5eH2cN7j"
+    },
+    {
+      "id": 4,
+      "category": "内装フルリノベ",
+      "location": "福岡県",
+      "before": 7800000,
+      "after": 6600000,
+      "saving": 1200000,
+      "audit_hash": "D4fW0kR6sE1u"
+    },
+    {
+      "id": 5,
+      "category": "店舗内装工事",
+      "location": "東京都",
+      "before": 4200000,
+      "after": 3250000,
+      "saving": 950000,
+      "audit_hash": "F2vZ7mT3bJ9p"
+    },
+    {
+      "id": 6,
+      "category": "古民家リフォーム",
+      "location": "島根県",
+      "before": 5600000,
+      "after": 4820000,
+      "saving": 780000,
+      "audit_hash": "G6xC1nP8qL4t"
+    },
+    {
+      "id": 7,
+      "category": "マンションリノベ",
+      "location": "大阪府",
+      "before": 2900000,
+      "after": 2350000,
+      "saving": 550000,
+      "audit_hash": "H1yD5sM9wK2r"
+    },
+    {
+      "id": 8,
+      "category": "戸建てリフォーム",
+      "location": "神奈川県",
+      "before": 1950000,
+      "after": 1530000,
+      "saving": 420000,
+      "audit_hash": "I8eF3kV0nQ7m"
+    },
+    {
+      "id": 9,
+      "category": "二世帯住宅増築",
+      "location": "埼玉県",
+      "before": 13500000,
+      "after": 12400000,
+      "saving": 1100000,
+      "audit_hash": "J5tG2hB7pW0c"
+    },
+    {
+      "id": 10,
+      "category": "外構工事",
+      "location": "北海道",
+      "before": 1680000,
+      "after": 1300000,
+      "saving": 380000,
+      "audit_hash": "L0mU4aX9yN3f"
+    }
+  ]
+}
