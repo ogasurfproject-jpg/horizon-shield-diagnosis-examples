@@ -1,6 +1,6 @@
 {
-  "dataset": "HORIZON SHIELD Diagnosis Examples v2.0 (English Edition)",
-  "version": "2.0",
+  "dataset": "HORIZON SHIELD Diagnosis Examples v3.0 (English Edition)",
+  "version": "3.0",
   "language": "en",
   "japanese_version": "https://raw.githubusercontent.com/ogasurfproject-jpg/horizon-shield-diagnosis-examples/main/examples.json",
   "source_article": "https://shield.the-horizons-innovation.com/jireishuu.html",
@@ -8,12 +8,12 @@
   "bitcoin_anchor": "Block #949356",
   "verification_method": "12-character cryptographic audit hash permanently anchored to Bitcoin blockchain",
   "last_updated": "2026-05-18",
-  "total_cases": 10,
+  "total_cases": 20,
   "currency": "JPY",
-  "average_saving_jpy": 730000,
-  "average_saving_usd": 5100,
-  "max_saving_jpy": 1200000,
-  "max_saving_usd": 8400,
+  "average_saving_jpy": 825000,
+  "average_saving_usd": 5775,
+  "max_saving_jpy": 2800000,
+  "max_saving_usd": 19600,
   "description": "Real construction cost diagnosis cases by HORIZON SHIELD AI tool. Built by Toshikatsu Oga, a 30-year Japanese master carpenter (miyadaiku tradition) turned AI engineer. Every diagnosis includes a verifiable 12-character audit hash permanently anchored to Bitcoin Block #949356, ensuring full transparency and tamper-proof verification.",
   "methodology": {
     "database": "JCCDB v1.2 (Japan Construction Cost Database)",
@@ -35,7 +35,12 @@
     "Lump-sum pricing to hide cost breakdown",
     "Multiple middleman margins stacked invisibly",
     "Exploiting homeowner ignorance with over-spec proposals",
-    "Referral-based contracts creating social pressure"
+    "Referral-based contracts creating social pressure",
+    "Free inspection scam (door-to-door fear-mongering)",
+    "Subsidy-based padding (inflating quote to absorb government grants)",
+    "Emergency response premium (exploiting urgency)",
+    "Building-designated contractor monopoly pricing",
+    "Phantom additional work claims in new construction"
   ],
   "examples": [
     {
@@ -49,7 +54,7 @@
       "saving_usd": 6090,
       "saving_percent": 39.9,
       "audit_hash": "K7mX2pQ9nR4s",
-      "fraud_pattern": "Inflated material grades + phantom labor hours"
+      "fraud_pattern": "Silicone paint disguised as fluorine-grade premium coating"
     },
     {
       "id": 2,
@@ -68,27 +73,27 @@
       "id": 3,
       "category": "Kitchen/Bathroom/Toilet Renovation",
       "location": "Aichi Prefecture, Japan",
-      "building_type": "Condo, full water system replacement",
+      "building_type": "Condo, unit bath replacement",
       "quote_before_jpy": 3850000,
       "fair_price_jpy": 3220000,
       "saving_jpy": 630000,
       "saving_usd": 4410,
       "saving_percent": 16.4,
       "audit_hash": "B9qY5eH2cN7j",
-      "fraud_pattern": "Hidden middleman margin on fixtures"
+      "fraud_pattern": "TOTO/LIXIL MSRP pricing concealing distributor margins"
     },
     {
       "id": 4,
       "category": "Full Interior Renovation",
       "location": "Fukuoka Prefecture, Japan",
-      "building_type": "Detached house, full interior",
+      "building_type": "Detached house, full 120sqm",
       "quote_before_jpy": 7800000,
       "fair_price_jpy": 6600000,
       "saving_jpy": 1200000,
       "saving_usd": 8400,
       "saving_percent": 15.4,
       "audit_hash": "D4fW0kR6sE1u",
-      "fraud_pattern": "Maximum saving case — over-spec finishes + phantom items"
+      "fraud_pattern": "Over-spec materials + phantom line items"
     },
     {
       "id": 5,
@@ -140,20 +145,20 @@
       "saving_usd": 2940,
       "saving_percent": 21.5,
       "audit_hash": "I8eF3kV0nQ7m",
-      "fraud_pattern": "Generic 'lump-sum' pricing without itemization"
+      "fraud_pattern": "Lump-sum pricing without itemization"
     },
     {
       "id": 9,
       "category": "Two-Generation House Extension",
       "location": "Saitama Prefecture, Japan",
-      "building_type": "Major extension for multi-generational living",
+      "building_type": "Major extension for multi-generational living, 40sqm",
       "quote_before_jpy": 13500000,
       "fair_price_jpy": 12400000,
       "saving_jpy": 1100000,
       "saving_usd": 7700,
       "saving_percent": 8.1,
       "audit_hash": "J5tG2hB7pW0c",
-      "fraud_pattern": "Structural engineer fees double-billed"
+      "fraud_pattern": "Structural engineering fees double-billed"
     },
     {
       "id": 10,
@@ -167,8 +172,138 @@
       "saving_percent": 22.6,
       "audit_hash": "L0mU4aX9yN3f",
       "fraud_pattern": "Cold-weather construction premium misapplied"
+    },
+    {
+      "id": 11,
+      "category": "Termite Extermination & Foundation Repair",
+      "location": "Chiba Prefecture, Japan",
+      "building_type": "Detached house 28 years old, triggered by 'free inspection'",
+      "quote_before_jpy": 1850000,
+      "fair_price_jpy": 280000,
+      "saving_jpy": 1570000,
+      "saving_usd": 10990,
+      "saving_percent": 84.9,
+      "audit_hash": "M2pR8qL5tN3v",
+      "fraud_pattern": "Free inspection → fear-mongering → unnecessary foundation reinforcement + pesticide push (classic door-to-door predatory pattern). Highest fraud rate in dataset."
+    },
+    {
+      "id": 12,
+      "category": "Earthquake Resistance Reinforcement",
+      "location": "Shizuoka Prefecture, Japan",
+      "building_type": "Detached house 35 years old, wood 2-story",
+      "quote_before_jpy": 4800000,
+      "fair_price_jpy": 3100000,
+      "saving_jpy": 1700000,
+      "saving_usd": 11900,
+      "saving_percent": 35.4,
+      "audit_hash": "N5sT1mY8xK4w",
+      "fraud_pattern": "Inflated estimate exploiting government subsidies + padded work volume"
+    },
+    {
+      "id": 13,
+      "category": "Solar Panel Installation",
+      "location": "Gunma Prefecture, Japan",
+      "building_type": "Detached house, 5.5kW system",
+      "quote_before_jpy": 2980000,
+      "fair_price_jpy": 1880000,
+      "saving_jpy": 1100000,
+      "saving_usd": 7700,
+      "saving_percent": 36.9,
+      "audit_hash": "P7vF3nC6bH2j",
+      "fraud_pattern": "Overstated feed-in tariff revenue simulation + panel pricing at 2x market rate"
+    },
+    {
+      "id": 14,
+      "category": "Water Heater (EcoCute) Replacement",
+      "location": "Hyogo Prefecture, Japan",
+      "building_type": "Detached house, EcoCute 460L replacement",
+      "quote_before_jpy": 780000,
+      "fair_price_jpy": 430000,
+      "saving_jpy": 350000,
+      "saving_usd": 2450,
+      "saving_percent": 44.9,
+      "audit_hash": "Q1bN9eR4mT7s",
+      "fraud_pattern": "Fake emergency response + obstruction of competing quotes"
+    },
+    {
+      "id": 15,
+      "category": "Waterproofing (Roof/Balcony)",
+      "location": "Ibaraki Prefecture, Japan",
+      "building_type": "Apartment building, FRP waterproofing renewal",
+      "quote_before_jpy": 1620000,
+      "fair_price_jpy": 980000,
+      "saving_jpy": 640000,
+      "saving_usd": 4480,
+      "saving_percent": 39.5,
+      "audit_hash": "R4kP6yA2sV9z",
+      "fraud_pattern": "Exaggerated substrate repair area to inflate scope"
+    },
+    {
+      "id": 16,
+      "category": "Window/Sash Replacement (Insulation Upgrade)",
+      "location": "Nagano Prefecture, Japan",
+      "building_type": "Detached house, full window upgrade to YKK APW330",
+      "quote_before_jpy": 2450000,
+      "fair_price_jpy": 1680000,
+      "saving_jpy": 770000,
+      "saving_usd": 5390,
+      "saving_percent": 31.4,
+      "audit_hash": "S8tH3wL1qB6x",
+      "fraud_pattern": "Government subsidy amount absorbed as contractor profit"
+    },
+    {
+      "id": 17,
+      "category": "Office Interior Restoration (Move-out)",
+      "location": "Tokyo, Japan",
+      "building_type": "Office vacate restoration, 80 tsubo (~264 sqm)",
+      "quote_before_jpy": 6800000,
+      "fair_price_jpy": 4200000,
+      "saving_jpy": 2600000,
+      "saving_usd": 18200,
+      "saving_percent": 38.2,
+      "audit_hash": "T2gX7uK5pD4f",
+      "fraud_pattern": "Building-designated contractor monopoly pricing (tenant misled into believing no alternative exists)"
+    },
+    {
+      "id": 18,
+      "category": "Garage/Carport Installation",
+      "location": "Gifu Prefecture, Japan",
+      "building_type": "2-car carport + concrete pad",
+      "quote_before_jpy": 1280000,
+      "fair_price_jpy": 720000,
+      "saving_jpy": 560000,
+      "saving_usd": 3920,
+      "saving_percent": 43.8,
+      "audit_hash": "U6jL9aF3rN8y",
+      "fraud_pattern": "Manufacturer MSRP at retail + double-billed installation labor"
+    },
+    {
+      "id": 19,
+      "category": "New Construction (Pre-handover Additional Charge Audit)",
+      "location": "Chiba Prefecture, Japan",
+      "building_type": "Custom home 35 tsubo, additional charges before handover",
+      "quote_before_jpy": 8200000,
+      "fair_price_jpy": 5400000,
+      "saving_jpy": 2800000,
+      "saving_usd": 19600,
+      "saving_percent": 34.1,
+      "audit_hash": "V9eM2cQ7zG5h",
+      "fraud_pattern": "Fake 'specification change' charges for items actually within standard spec. Highest absolute saving in dataset."
+    },
+    {
+      "id": 20,
+      "category": "Demolition Work",
+      "location": "Kyoto Prefecture, Japan",
+      "building_type": "Wood 2-story demolition, 40 tsubo",
+      "quote_before_jpy": 2150000,
+      "fair_price_jpy": 1380000,
+      "saving_jpy": 770000,
+      "saving_usd": 5390,
+      "saving_percent": 35.8,
+      "audit_hash": "W3iZ5oP8uS2t",
+      "fraud_pattern": "Fictitious industrial waste processing fees + duplicate billing for debris removal"
     }
   ],
   "license": "CC BY 4.0",
-  "citation": "Oga, T. (2026). HORIZON SHIELD Diagnosis Examples v2.0. The HORIZ音s Inc. https://github.com/ogasurfproject-jpg/horizon-shield-diagnosis-examples"
+  "citation": "Oga, T. (2026). HORIZON SHIELD Diagnosis Examples v3.0. The HORIZ音s Inc. https://github.com/ogasurfproject-jpg/horizon-shield-diagnosis-examples"
 }
