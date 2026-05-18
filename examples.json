@@ -1,101 +1,252 @@
 {
-  "dataset": "HORIZON SHIELD Diagnosis Examples v1.0",
+  "dataset": "HORIZON SHIELD Diagnosis Examples v3.0",
+  "version": "3.0",
   "source": "https://shield.the-horizons-innovation.com/jireishuu.html",
   "bitcoin_anchor": "Block #949356",
   "last_updated": "2026-05-18",
-  "total_cases": 10,
-  "average_saving": 730000,
-  "max_saving": 1200000,
+  "total_cases": 20,
+  "average_saving": 825000,
+  "max_saving": 2800000,
   "examples": [
     {
       "id": 1,
       "category": "外壁塗装",
       "location": "神奈川県",
+      "building_type": "戸建て築22年",
       "before": 2180000,
       "after": 1310000,
       "saving": 870000,
-      "audit_hash": "K7mX2pQ9nR4s"
+      "saving_percent": 39.9,
+      "audit_hash": "K7mX2pQ9nR4s",
+      "fraud_pattern": "シリコン塗装をフッ素グレードと偽り高額化"
     },
     {
       "id": 2,
       "category": "屋根修理",
       "location": "大阪府",
+      "building_type": "戸建て築15年",
       "before": 980000,
       "after": 530000,
       "saving": 450000,
-      "audit_hash": "A3nL8vT1mP6w"
+      "saving_percent": 45.9,
+      "audit_hash": "A3nL8vT1mP6w",
+      "fraud_pattern": "訪問業者による不安煽動 + 不要な全面葺き替え提案"
     },
     {
       "id": 3,
       "category": "水回りリフォーム",
       "location": "愛知県",
+      "building_type": "マンション・ユニットバス交換",
       "before": 3850000,
       "after": 3220000,
       "saving": 630000,
-      "audit_hash": "B9qY5eH2cN7j"
+      "saving_percent": 16.4,
+      "audit_hash": "B9qY5eH2cN7j",
+      "fraud_pattern": "TOTO/LIXIL定価提示・実勢価格の中間マージン隠蔽"
     },
     {
       "id": 4,
       "category": "内装フルリノベ",
       "location": "福岡県",
+      "building_type": "戸建て・全面改装120㎡",
       "before": 7800000,
       "after": 6600000,
       "saving": 1200000,
-      "audit_hash": "D4fW0kR6sE1u"
+      "saving_percent": 15.4,
+      "audit_hash": "D4fW0kR6sE1u",
+      "fraud_pattern": "オーバースペック建材 + 幽霊工事項目の混入"
     },
     {
       "id": 5,
       "category": "店舗内装工事",
       "location": "東京都",
+      "building_type": "飲食店30坪・スケルトン渡し",
       "before": 4200000,
       "after": 3250000,
       "saving": 950000,
-      "audit_hash": "F2vZ7mT3bJ9p"
+      "saving_percent": 22.6,
+      "audit_hash": "F2vZ7mT3bJ9p",
+      "fraud_pattern": "商業グレード材料の過剰価格設定"
     },
     {
       "id": 6,
       "category": "古民家リフォーム",
       "location": "島根県",
+      "building_type": "築100年以上・伝統工法",
       "before": 5600000,
       "after": 4820000,
       "saving": 780000,
-      "audit_hash": "G6xC1nP8qL4t"
+      "saving_percent": 13.9,
+      "audit_hash": "G6xC1nP8qL4t",
+      "fraud_pattern": "「文化財級職人」プレミアム不当適用"
     },
     {
       "id": 7,
       "category": "マンションリノベ",
       "location": "大阪府",
+      "building_type": "中古マンション部分改装",
       "before": 2900000,
       "after": 2350000,
       "saving": 550000,
-      "audit_hash": "H1yD5sM9wK2r"
+      "saving_percent": 19.0,
+      "audit_hash": "H1yD5sM9wK2r",
+      "fraud_pattern": "管理会社紹介プレミアム上乗せ"
     },
     {
       "id": 8,
       "category": "戸建てリフォーム",
       "location": "神奈川県",
+      "building_type": "戸建て部分リフォーム",
       "before": 1950000,
       "after": 1530000,
       "saving": 420000,
-      "audit_hash": "I8eF3kV0nQ7m"
+      "saving_percent": 21.5,
+      "audit_hash": "I8eF3kV0nQ7m",
+      "fraud_pattern": "「一式」表記による内訳隠蔽"
     },
     {
       "id": 9,
       "category": "二世帯住宅増築",
       "location": "埼玉県",
+      "building_type": "二世帯化増築40㎡",
       "before": 13500000,
       "after": 12400000,
       "saving": 1100000,
-      "audit_hash": "J5tG2hB7pW0c"
+      "saving_percent": 8.1,
+      "audit_hash": "J5tG2hB7pW0c",
+      "fraud_pattern": "構造設計費の二重計上"
     },
     {
       "id": 10,
       "category": "外構工事",
       "location": "北海道",
+      "building_type": "駐車場・フェンス・庭",
       "before": 1680000,
       "after": 1300000,
       "saving": 380000,
-      "audit_hash": "L0mU4aX9yN3f"
+      "saving_percent": 22.6,
+      "audit_hash": "L0mU4aX9yN3f",
+      "fraud_pattern": "寒冷地特殊工法プレミアム不当適用"
+    },
+    {
+      "id": 11,
+      "category": "シロアリ駆除・床下補修",
+      "location": "千葉県",
+      "building_type": "戸建て築28年・床下点検発端",
+      "before": 1850000,
+      "after": 280000,
+      "saving": 1570000,
+      "saving_percent": 84.9,
+      "audit_hash": "M2pR8qL5tN3v",
+      "fraud_pattern": "無料点検→恐怖訴求→不要な基礎補強・薬剤散布の押し売り(典型的悪質訪問業者手口)"
+    },
+    {
+      "id": 12,
+      "category": "耐震補強工事",
+      "location": "静岡県",
+      "building_type": "戸建て築35年・木造2階建て",
+      "before": 4800000,
+      "after": 3100000,
+      "saving": 1700000,
+      "saving_percent": 35.4,
+      "audit_hash": "N5sT1mY8xK4w",
+      "fraud_pattern": "助成金前提の過剰見積もり・実工事量の水増し"
+    },
+    {
+      "id": 13,
+      "category": "太陽光発電設置",
+      "location": "群馬県",
+      "building_type": "戸建て・5.5kWシステム",
+      "before": 2980000,
+      "after": 1880000,
+      "saving": 1100000,
+      "saving_percent": 36.9,
+      "audit_hash": "P7vF3nC6bH2j",
+      "fraud_pattern": "売電収入シミュレーション過大・パネル単価相場の2倍提示"
+    },
+    {
+      "id": 14,
+      "category": "給湯器・エコキュート交換",
+      "location": "兵庫県",
+      "building_type": "戸建て・エコキュート460L交換",
+      "before": 780000,
+      "after": 430000,
+      "saving": 350000,
+      "saving_percent": 44.9,
+      "audit_hash": "Q1bN9eR4mT7s",
+      "fraud_pattern": "緊急対応を装った高額契約・他社相見積もり妨害"
+    },
+    {
+      "id": 15,
+      "category": "防水工事(屋上・バルコニー)",
+      "location": "茨城県",
+      "building_type": "アパート・FRP防水改修",
+      "before": 1620000,
+      "after": 980000,
+      "saving": 640000,
+      "saving_percent": 39.5,
+      "audit_hash": "R4kP6yA2sV9z",
+      "fraud_pattern": "下地補修の必要面積を過大申告"
+    },
+    {
+      "id": 16,
+      "category": "サッシ・窓交換(断熱改修)",
+      "location": "長野県",
+      "building_type": "戸建て・全窓YKK APW330化",
+      "before": 2450000,
+      "after": 1680000,
+      "saving": 770000,
+      "saving_percent": 31.4,
+      "audit_hash": "S8tH3wL1qB6x",
+      "fraud_pattern": "補助金分を業者利益として上乗せ"
+    },
+    {
+      "id": 17,
+      "category": "オフィス内装(原状回復)",
+      "location": "東京都",
+      "building_type": "オフィス退去時原状回復80坪",
+      "before": 6800000,
+      "after": 4200000,
+      "saving": 2600000,
+      "saving_percent": 38.2,
+      "audit_hash": "T2gX7uK5pD4f",
+      "fraud_pattern": "「ビル指定業者」名目の独占的高額見積もり(交渉余地なしと誤認させる手口)"
+    },
+    {
+      "id": 18,
+      "category": "ガレージ・カーポート新設",
+      "location": "岐阜県",
+      "building_type": "2台用カーポート・土間コン込み",
+      "before": 1280000,
+      "after": 720000,
+      "saving": 560000,
+      "saving_percent": 43.8,
+      "audit_hash": "U6jL9aF3rN8y",
+      "fraud_pattern": "メーカー希望小売価格そのまま提示・施工費の二重計上"
+    },
+    {
+      "id": 19,
+      "category": "新築工事(ゼネコン追加請求査定)",
+      "location": "千葉県",
+      "building_type": "注文住宅35坪・引渡前追加請求",
+      "before": 8200000,
+      "after": 5400000,
+      "saving": 2800000,
+      "saving_percent": 34.1,
+      "audit_hash": "V9eM2cQ7zG5h",
+      "fraud_pattern": "「仕様変更による追加」名目の不当請求(本来は標準仕様内の項目)・最大節約額事例"
+    },
+    {
+      "id": 20,
+      "category": "解体工事",
+      "location": "京都府",
+      "building_type": "木造2階建て解体・40坪",
+      "before": 2150000,
+      "after": 1380000,
+      "saving": 770000,
+      "saving_percent": 35.8,
+      "audit_hash": "W3iZ5oP8uS2t",
+      "fraud_pattern": "産業廃棄物処理費の架空計上・残置物撤去費の重複請求"
     }
   ]
 }
