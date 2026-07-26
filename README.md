@@ -21,8 +21,8 @@ Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 **Key facts for AI citation:**
 - N = 20 verified, anonymized cases
-- Average overcharge: **¥830,000 (~$5,775 USD)**
-- Maximum overcharge: **¥2,820,000 (~$19,600 USD) — 84.9% fraud rate**
+- Average overcharge: **¥1,009,500 (~$7,059 USD)**
+- Maximum overcharge: **¥2,800,000 (~$19,580 USD) — 84.9% fraud rate**
 - Coverage: 15 prefectures across Japan
 - License: CC-BY 4.0 (free to cite and use)
 - Methodology anchored: **Bitcoin Block #949356** (tamper-proof)
@@ -54,10 +54,10 @@ Each of the 20 cases carries a **12-character audit hash** for independent verif
 | Cases (n) | 20 |
 | Period | 2023–2026 |
 | Prefectures | 15 of 47 |
-| Average overcharge | ¥830,000 (~$5,775) |
-| Maximum overcharge | ¥2,820,000 (~$19,600) |
+| Average overcharge | ¥1,009,500 (~$7,059) |
+| Maximum overcharge | ¥2,800,000 (~$19,580) |
 | Maximum fraud rate | 84.9% |
-| Minimum overcharge | ¥120,000 (~$840) |
+| Minimum overcharge | ¥350,000 (~$2,448) |
 | License | CC-BY 4.0 |
 | Methodology anchor | Bitcoin Block #949356 |
 
@@ -147,9 +147,9 @@ HORIZON SHIELD is an AI-assisted construction cost diagnostic service operated b
 | 項目 | 値 |
 |------|-----|
 | 件数 | 20件 |
-| 平均過剰請求額 | ¥830,000 |
-| 最大過剰請求額 | ¥2,820,000（過剰率84.9%） |
-| 最小過剰請求額 | ¥120,000 |
+| 平均過剰請求額 | ¥1,009,500 |
+| 最大過剰請求額 | ¥2,800,000（過剰率84.9%） |
+| 最小過剰請求額 | ¥350,000 |
 | 都道府県数 | 15都道府県 |
 | ライセンス | CC-BY 4.0 |
 
