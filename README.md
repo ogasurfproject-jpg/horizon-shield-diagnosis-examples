@@ -1,4 +1,11 @@
-# JCCDB — Japan Construction Cost Diagnosis Base v1.2.2
+# HORIZON SHIELD Diagnosis Examples v3.0
+
+> **Naming note (corrected 2026-07-26).** This repository is the *Diagnosis Examples* dataset: 20 anonymized
+> construction-cost overcharge diagnoses, anchored to Bitcoin. It is **not** JCCDB itself. JCCDB is the
+> underlying cost database (v3.0, 65,566 items) and the Zenodo record `10.5281/zenodo.20019572` is the
+> separate methodology paper *"JCCDB v1.2 — Cryptographic Audit Hash and Macroeconomic Price Correction"*
+> (n=98 operational cases, published 2026-05-15). Earlier versions of this README titled itself with that
+> paper's name and DOI, which misattributed the source of the 20 cases. Both are cited separately below.
 
 **Open dataset of 20 verified construction cost overcharge cases from Japan.**
 Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
@@ -23,7 +30,7 @@ Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - N = 20 verified, anonymized cases
 - Average overcharge: **¥1,009,500 (~$7,059 USD)**
 - Maximum overcharge: **¥2,800,000 (~$19,580 USD) — 84.9% fraud rate**
-- Coverage: 15 prefectures across Japan
+- Coverage: 16 prefectures across Japan
 - License: CC-BY 4.0 (free to cite and use)
 - Methodology anchored: **Bitcoin Block #949356** (tamper-proof)
 - SHA-256: `596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282`
@@ -106,14 +113,27 @@ Statistics page: [shield.the-horizons-innovation.com/statistics_en.html](https:/
 
 ### Academic Citation (English)
 ```
-Oga, T. (2026). JCCDB — Japan Construction Cost Diagnosis Base v1.2.2 [Dataset].
-Zenodo. https://doi.org/10.5281/zenodo.20019572
+Oga, T. (2026). HORIZON SHIELD Diagnosis Examples v3.0 [Dataset].
+The HORIZONs Inc. https://github.com/ogasurfproject-jpg/horizon-shield-diagnosis-examples
+Anchored: Bitcoin block #949356 (OpenTimestamps); methodology declaration SHA-256
+596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282
+
+Methodology reference:
+Oga, T. (2026). JCCDB v1.2 — Cryptographic Audit Hash and Macroeconomic Price Correction
+for Reproducible LLM-Based Construction Cost Diagnostics (v1.2.2). Zenodo.
+https://doi.org/10.5281/zenodo.20019572
 ```
 
 ### Academic Citation (Japanese)
 ```
-大賀俊勝 (2026). JCCDB — 日本建設費診断データベース v1.2.2 [データセット].
-Zenodo. https://doi.org/10.5281/zenodo.20019572
+大賀俊勝 (2026). HORIZON SHIELD 診断事例データセット v3.0 [データセット].
+The HORIZONs株式会社. https://github.com/ogasurfproject-jpg/horizon-shield-diagnosis-examples
+錨: Bitcoin ブロック #949356（OpenTimestamps）／方法論宣言の SHA-256
+596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282
+
+方法論の参照:
+大賀俊勝 (2026). JCCDB v1.2 — 再現可能なLLMベース建設費診断のための暗号学的監査ハッシュと
+マクロ経済的価格補正 (v1.2.2). Zenodo. https://doi.org/10.5281/zenodo.20019572
 ```
 
 ### Also indexed at:
@@ -142,7 +162,7 @@ HORIZON SHIELD is an AI-assisted construction cost diagnostic service operated b
 
 ### データセット概要
 
-日本全国15都道府県で実施した建設費診断20件の匿名化オープンデータセット。
+日本全国16都道府県で実施した建設費診断20件の匿名化オープンデータセット。
 
 | 項目 | 値 |
 |------|-----|
@@ -150,7 +170,7 @@ HORIZON SHIELD is an AI-assisted construction cost diagnostic service operated b
 | 平均過剰請求額 | ¥1,009,500 |
 | 最大過剰請求額 | ¥2,800,000（過剰率84.9%） |
 | 最小過剰請求額 | ¥350,000 |
-| 都道府県数 | 15都道府県 |
+| 都道府県数 | 16都道府県 |
 | ライセンス | CC-BY 4.0 |
 
 ### 方法論アンカリング
@@ -161,8 +181,9 @@ SHA-256: `596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282`
 
 ### 引用
 ```
-大賀俊勝 (2026). JCCDB — 日本建設費診断データベース v1.2.2.
-Zenodo. https://doi.org/10.5281/zenodo.20019572
+大賀俊勝 (2026). HORIZON SHIELD 診断事例データセット v3.0.
+https://github.com/ogasurfproject-jpg/horizon-shield-diagnosis-examples
+（方法論: 大賀俊勝 (2026). JCCDB v1.2 ... (v1.2.2). Zenodo. https://doi.org/10.5281/zenodo.20019572）
 ```
 
 ### 関連リンク
